@@ -25,7 +25,7 @@ body {
 
 header {
     grid-area: header;
-    background-color: #19053d;
+    background-color: #100327;
 }
 
 main {
@@ -35,11 +35,21 @@ main {
 
 footer {
     grid-area: footer;
-    background-color: #19053d;
+    background-color: #100327;
     color: #ffffff;
 }
 
 /* Common */
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
 
 a{
     text-decoration: none;
@@ -72,3 +82,44 @@ a:hover {
 .row.center {
     justify-content: center;
 }
+
+/* images */
+img{
+    border-radius: 0.5rem;
+ }
+ 
+ img.medium {
+    max-width: 29rem;
+    width: 100%;
+ }
+ 
+ img.large {
+   width: 100%;
+ }
+ 
+ /*Card*/
+ 
+ .card{
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    margin: 1rem;
+ }
+ 
+ .card-body{
+    padding: 1rem;
+ }
+ 
+ .card-body > * {
+    margin-bottom: 0.5rem;
+ 
+ }
+ 
+ .price {
+    font-size: 2rem;
+ }
+   
+ .rating span {
+    color: #f0c040;
+    margin: 0.1rem;
+ }
