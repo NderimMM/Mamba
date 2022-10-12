@@ -1,0 +1,26 @@
+{
+  "name": "mamba",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Shoping online per  shit/blerje te produkteve",
+  "main": "index.js",
+  "scripts": {
+   "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NderimMM/Mamba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NderimMM/Mamba/issues"
+  },
+  "homepage": "https://github.com/NderimMM/Mamba#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
