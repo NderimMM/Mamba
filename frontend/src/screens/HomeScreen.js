@@ -1,4 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
+
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import LoadingBox from '../components/LoadingBox';
